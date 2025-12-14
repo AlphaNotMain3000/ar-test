@@ -16,16 +16,15 @@
       renderer="precision: medium"
       arjs="sourceType: webcam; debugUIEnabled:false;"
     >
-      <a-marker preset="hiro">
-        <a-box
-          position="0 0.5 0"
-          color="lime"
-          animation="property: rotation; to: 0 360 0; loop: true; dur: 2500">
-        </a-box>
-      </a-marker>
+      <a-entity
+    geometry="primitive: box"
+    material="color: red"
+    position="0 0 -2">
+  </a-entity>
 
       <a-entity camera></a-entity>
     </a-scene>
   </body>
 </html>
+
 
